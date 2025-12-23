@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Input } from '../components/ui/Input';
+import { Input } from '../Components/ui/Input';
 
 export default function Auth({ mode = "login" }) {
     const isLogin = mode === "login";
