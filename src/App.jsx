@@ -3,9 +3,9 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
 // Components
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ui/ScrollToTop"; // We need this helper
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ui/ScrollToTop"; // We need this helper
 
 // Pages
 import Home from "./pages/Home";
